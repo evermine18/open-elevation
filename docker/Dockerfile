@@ -14,7 +14,7 @@ RUN mkdir /code
 ADD . /code/
 
 WORKDIR /code
-CMD python3 server.py
+CMD ["python3", "server.py"]
 
 EXPOSE 8080
 
